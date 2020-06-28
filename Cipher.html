@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cipher.css">
+</head>
+<body>
+
+    <header>Caesar Cipher Converter</header>
+
+    <div class="big">
+    <div class="header"> 
+        <p>Enter a string to be converted</p>
+        <input class = "text"  type="text" id="plain"> 
+        <p>Enter the shift value</p>
+        <input class="shift" type="number" min="1" max="25" id="shift"> 
+    </div>
+
+
+    <button class="Calculate" onclick="Convert()">Calculate</button>
+
+    <button class="Reset" onclick="reset()">Reset</button>
+
+    <div class="encrypted">
+        <p>Encrypted Text</p>
+        <div class="display" id="display"> 
+            
+    </div>
+</div>
+
+<script src="cipher.js"> </script>
+</body>
+</html>

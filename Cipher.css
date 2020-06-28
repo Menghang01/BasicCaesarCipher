@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+}
+input{
+    padding:5px;
+}
+.big{
+    background-color: wheat;
+    border-radius: 8px;
+    border: 2px solid rgb(76, 99, 50);
+    width: 50%;
+    position: relative;
+    top:150px;
+    left:25%;
+    
+}
+
+.header{
+    padding: 20px 20px 20px 20px; 
+}
+
+.text{
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 30px;
+}
+
+
+.shift{
+    width: 70%;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.Calculate{
+    width: 60%;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: tomato;
+    border:2px solid tomato;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    position: relative;
+    left: -10px;
+}
+
+.encrypted{
+    padding-left: 20px;
+    width: 70%;
+    height: 90px;
+    margin-left: 10px;
+    background-color: rgb(192, 183, 167);
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 10px;
+  
+    
+}
+
+.Reset{
+    background-color: rgb(55, 56, 54);
+    width: 10%;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.display{
+    border-radius: 8px;
+    width: 90% ;
+    margin-left: 5px;
+    border: 1px solid red;
+    height: 30px;
+    position: absolute;
+    margin-top: 5px;
+    background-color: white;
+    box-shadow: 2px silver;
+    padding:5px;
+}
+
+header{
+    position: relative;
+    left:37%;
+    margin-top: 2%;
+    font-size: 40px;
+    text-shadow: green 1px; 
+}
